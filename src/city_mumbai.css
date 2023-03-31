@@ -1,0 +1,93 @@
+.Mumbai {
+  color: #41e620;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+  }
+  body {
+    background-size: cover;
+    background-position: center;
+  }
+ 
+  nav {
+    background-color: #333;
+    color: #140606;
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+  }
+  
+  nav ul {
+    background-color: #333;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  nav ul li a {
+    color: #41e620;
+    text-decoration: none;
+    padding: 0.5rem;
+    margin: 0 0.25rem;
+  }
+  
+  nav ul li a:hover {
+    background-color: #555;
+  }
+  
+  .dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #1b0b0b;
+    border: 1px solid #d8e614;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 0.5rem;
+    margin: 0;
+    list-style: none;
+  }
+  
+  .dropdown-menu li {
+    background-color: #333;
+    margin: 0.25rem 0;
+  }
+  
+  .dropdown:hover .dropdown-menu {
+    display: block;
+    background-color: #333;
+  }
+  
+  h1 {
+    
+    font-size: 2rem;
+    margin: 1rem 0;
+  }
+  
+  ul {
+    color: #41e620;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  ul li a {
+    text-decoration: none;
+    color: #b60c0c;
+    display: block;
+    padding: 0.5rem;
+    margin: 0.25rem 0;
+  }
+  
+  ul li a:hover {
+    color: #333;
+    background-color: #eee;
+  }
+  
