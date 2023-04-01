@@ -1,0 +1,102 @@
+.navbar {
+    color: #140606;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+    background-color: rgba(255,255,255,0.5);
+  }
+  body {
+    background-image:url('https://images.unsplash.com/photo-1555927196-4a4e154c4d51?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjZ8fG1hbGx8ZW58MHx8MHx8&auto=format&fit=crop&w=1000&q=60');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(18, 8, 8, 0.7);
+    
+  }
+  
+  .navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar ul li a {
+    color: #26f50b;
+    text-decoration: none;
+  }
+  
+  .navbar ul li a:hover {
+    background-color: #555;
+  }
+  
+  .dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #1b0b0b;
+    padding: 0.5rem;
+    margin: 0;
+    list-style: none;
+  }
+  
+  .dropdown-menu li {
+    background-color: #333;
+    margin: 0.25rem 0;
+  }
+  
+  .dropdown:hover .dropdown-menu {
+    display: block;
+    background-color: #333;
+  }
+  
+  .navbar-brand {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    margin: 4rem 0;
+  }
+  
+  .navbar-nav {
+    color: #41e620;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar-nav li a {
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: #0a25d6;
+    display: flex;
+    justify-content: space-around;
+    padding: 0.5rem;
+    margin: 0.25rem 0;
+    transition: all 0.2s ease-in-out;
+    font-weight: bolder;
+  }
+  
+  .navbar-nav li a:hover {
+    color: #333;
+    background-color: #eee;
+    box-shadow: 0px 0px 10px #41e620; /* add a box-shadow on hover */
+    padding: 5px; /* add some padding to make the border visible */
+    border-style: groove;
+  }
+  
+  .navbar-nav .nav-item {
+    width: 33.3%;
+  }
+  
+  .navbar-nav .nav-link {
+    width: 90%;
+  }
+  
+  h2 {
+    font-size: 20px;
+  }
+  
